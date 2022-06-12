@@ -1,0 +1,54 @@
+.form {
+    border: 1px solid white;
+    border-radius: 10px;
+    border-color: gray;
+
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+}
+
+.input:focus {
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.search {
+    background-color: #fd5631;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+
+
+.search:hover {
+    background-color: #dc3545;
+}
+
+.body-type {
+    background-color: #fd5631;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+
+}
+
+.body-type:hover {
+    background-color: #dc3545;
+}
+
+.body-type option {
+    background-color: rgb(31, 27, 45);
+}

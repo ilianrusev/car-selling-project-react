@@ -1,0 +1,23 @@
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.underhead {
+    color: white;
+    opacity: .5;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.col2 {
+    min-width: 220px;
+    min-height: 125px;
+}
