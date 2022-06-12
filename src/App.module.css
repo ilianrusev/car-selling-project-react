@@ -1,0 +1,11 @@
+.main-wrapper {
+  background-color: rgb(31, 27, 45);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+p {
+  color: white;
+}
