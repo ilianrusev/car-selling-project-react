@@ -1,0 +1,8 @@
+.hovering {
+    border: none;
+
+}
+
+.hovering:hover {
+    transform: scale(1.07);
+}

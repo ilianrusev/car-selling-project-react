@@ -1,0 +1,8 @@
+.body-type {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 13%;
+    margin-right: 13%;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
