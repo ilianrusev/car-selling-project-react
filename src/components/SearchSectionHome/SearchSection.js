@@ -1,4 +1,4 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Image, Row } from 'react-bootstrap';
 import style from './SearchSection.module.css';
 
 import car from '../../assets/images/home-car.png'

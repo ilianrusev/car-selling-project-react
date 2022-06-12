@@ -1,4 +1,4 @@
-import { Button, Form, InputGroup, DropdownButton, Dropdown, Container } from "react-bootstrap"
+import { Form, InputGroup } from "react-bootstrap"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
@@ -14,7 +14,7 @@ const SearchBar = () => {
                 <Row className='ms-sm-n2 '>
                     <Col className='d-sm-flex '>
                         <InputGroup className='w-sm-100  align-items-center justify-content-center'>
-                            <img width='25' height='25' src={search} className={style.img} />
+                            <img width='25' height='25' src={search} className={style.img} alt='search'/>
                             <Form.Control className={` border-right mr-2 ${style.input}`} placeholder='Find car ...' />
                             <Form.Select className={`${style['body-type']}`} aria-label="Make" >
                                 <option value='0'>Make</option>

@@ -36,10 +36,10 @@ const Footer = () => {
                 <Col className={style.contacts}>
                     <h5>Contacts</h5>
                     <span>
-                        <img src={phone} height={20} />&nbsp;&nbsp;
+                        <img src={phone} height={20} alt='phone' />&nbsp;&nbsp;
                         <span>(+359)892 952 955</span>
                         <br />
-                        <img src={mail} height={18} />&nbsp;&nbsp;
+                        <img src={mail} height={18} alt='mail' />&nbsp;&nbsp;
                         <span>ilianrusev@gmail</span>
                     </span>
                 </Col>
@@ -55,7 +55,7 @@ const Footer = () => {
                             <img src={linkedin} height={24} alt='linkedin' />
                         </a>
                     </span>
-                    <img width={70} height={70} src={mylogo} />
+                    <img width={70} height={70} src={mylogo} alt='logo' />
                 </Col>
                 <Row className={`${style.rights} justify-content-center`}>© All rights reserved. Made by Ilian Rusev</Row>
 

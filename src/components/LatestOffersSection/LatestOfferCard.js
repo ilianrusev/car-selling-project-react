@@ -13,7 +13,7 @@ const LatestOfferCard = (props) => {
         <Col xs={12} md={6} lg={3} className='mb-4'>
             <div className={style['card-wrapper']}>
                 <div className={style['img-wrapper']} >
-                    <img src={props.src} alt="Image" />
+                    <img src={props.src} alt="car-img" />
                 </div>
 
                 <div className={style['card-body']}>

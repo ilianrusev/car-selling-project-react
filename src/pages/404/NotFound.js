@@ -11,7 +11,7 @@ const NotFound = () => {
     return (
         <Fragment className={style.body}>
             <div className={style.mars}></div>
-            <img src={notfound} className={style['logo-404']} />
+            <img src={notfound} className={style['logo-404']} alt="404-logo" />
             <p className={style.title}>Oh no!!</p>
             <p className={style.subtitle}>
                 You’re either misspelling the URL <br /> or requesting a page that's no longer here.
@@ -26,8 +26,8 @@ const NotFound = () => {
                     <button className={style['btn-back']} >Deny ?</button>
                 </a>
             </div>
-            <img src={astronaut} className={style.astronaut} />
-            <img src={spaceship} className={style.spaceship} />
+            <img src={astronaut} className={style.astronaut} alt='astronaut' />
+            <img src={spaceship} className={style.spaceship} alt='spaceship' />
         </Fragment >
     )
 }
