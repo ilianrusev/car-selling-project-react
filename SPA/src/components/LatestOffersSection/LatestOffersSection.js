@@ -1,6 +1,6 @@
 import { Container, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
-import LatestOfferCard from "./LatestOfferCard"
+import VehicleCard from "./VehicleCard"
 
 import style from "./LatestOffersSection.module.css"
 
@@ -16,7 +16,7 @@ const LatestOffersSection = () => {
 
             <Row className='justify-content-around mx-3' >
 
-                <LatestOfferCard
+                <VehicleCard
                     src='https://finder.createx.studio/img/car-finder/catalog/01.jpg'
                     year='1995'
                     price='25 000'
@@ -26,7 +26,7 @@ const LatestOffersSection = () => {
                     trans='Manual'
                     fuel='Diesel'
                 />
-                <LatestOfferCard
+                <VehicleCard
                     src='https://www.nastarta.com/wp-content/uploads/2018/02/mclaren-f1-1.jpg'
                     year='2001'
                     price='150 000'
@@ -36,7 +36,7 @@ const LatestOffersSection = () => {
                     trans='Manual'
                     fuel='Gasoline'
                 />
-                <LatestOfferCard
+                <VehicleCard
                     src='https://automedia.investor.bg//media/files/resized/article/w1200x630/7a2/a602b621d6f4851747f0acb1b99f07a2-09-1.jpg'
                     year='2000'
                     price='2 000'
@@ -46,7 +46,7 @@ const LatestOffersSection = () => {
                     trans='Manual'
                     fuel='Diesel'
                 />
-                <LatestOfferCard
+                <VehicleCard
                     src='https://nastarta-shop.com/wp-content/uploads/2022/03/eng_pl_front-splitter-v-2-bmw-3-e90-14956_5.jpg'
                     year='2006'
                     price='15 000'

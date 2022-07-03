@@ -3,7 +3,7 @@
     width: 350px;
     color: white;
     padding: 50px 25px;
-    border: 1px solid white;
+    border-right: 1px solid gray;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
@@ -12,6 +12,12 @@
 @media screen and (max-width:600px) {
     .aside {
         width: 100%
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .aside {
+        display: none
     }
 }
 
