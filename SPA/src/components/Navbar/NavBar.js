@@ -57,10 +57,7 @@ const NavBar = () => {
                                 <i className='fi-lock opacity-60 me-2'></i>
                                 Personal Info
                             </Dropdown.Item>
-                            <Dropdown.Item as={Link} to='/pass-sec'>
-                                <i className='fi-lock opacity-60 me-2'></i>
-                                Password &amp; Security
-                            </Dropdown.Item>
+
                             <Dropdown.Item as={Link} to='/my-listings'>
                                 <i className='fi-list opacity-60 me-2'></i>
                                 My Listings
@@ -71,12 +68,9 @@ const NavBar = () => {
                             </Dropdown.Item>
                             <Dropdown.Item as={Link} to='/reviews' >
                                 <i className='fi-star opacity-60 me-2'></i>
-                                Reviews
+                                Messages
                             </Dropdown.Item>
-                            <Dropdown.Item as={Link} to='/notif' >
-                                <i className='fi-bell opacity-60 me-2'></i>
-                                Notifications
-                            </Dropdown.Item>
+
                             <Dropdown.Divider style={{ borderTop: '1px solid rgb(102, 102, 102)' }} />
                             <Dropdown.Item as={Link} to='/sign-out' >Sign Out</Dropdown.Item>
                         </Dropdown.Menu>
@@ -102,15 +96,9 @@ const NavBar = () => {
                                     handleType('login')
                                     setExpanded(false);
                                     handleShow()
-                                }} as={Link} to='' >Login</Nav.Link>
+                                }}>Sign in</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link onClick={() => {
-                                    handleType('register')
-                                    setExpanded(false);
-                                    handleShow()
-                                }} as={Link} to='' >Register</Nav.Link>
-                            </Nav.Item>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
