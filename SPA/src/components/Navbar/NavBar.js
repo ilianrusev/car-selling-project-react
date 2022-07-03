@@ -17,6 +17,8 @@ import SignModal from '../SIgnModal/SignModal'
 const NavBar = () => {
     const [type, setType] = useState('')
 
+    const handleType = (type) => setType(type);
+
     const [expanded, setExpanded] = useState(false)
 
     const [show, setShow] = useState(false);
@@ -26,7 +28,7 @@ const NavBar = () => {
 
     return (
         <>
-            <SignModal show={show} handleClose={handleClose} type={type} />
+            <SignModal show={show} handleClose={handleClose} handleShow={handleShow} handleType={handleType} type={type} />
             <Navbar expanded={expanded} variant='dark' expand='lg' className={` mb-5 ${style.navbar}`} >
                 <Container>
                     <Link to='/' >
@@ -97,17 +99,14 @@ const NavBar = () => {
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link onClick={() => {
-                                    setType('login')
-                                    console.log(type);
+                                    handleType('login')
                                     setExpanded(false);
                                     handleShow()
                                 }} as={Link} to='' >Login</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link onClick={() => {
-                                    setType('register')
-                                    console.log(type);
-
+                                    handleType('register')
                                     setExpanded(false);
                                     handleShow()
                                 }} as={Link} to='' >Register</Nav.Link>

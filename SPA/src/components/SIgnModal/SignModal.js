@@ -8,7 +8,8 @@ import registerImg from '../../assets/images/signup-dark.png'
 import { Link } from "react-router-dom";
 
 
-function SignModal({ show, handleClose, type }) {
+function SignModal({ show, handleClose, type, handleShow, handleType }) {
+
 
     if (type === 'login') {
         return (
@@ -23,7 +24,14 @@ function SignModal({ show, handleClose, type }) {
                         <div className={style.header}>
                             <h3>Hey there!<br />Welcome back.</h3>
                             <img src={loginImg} alt='signinimg' />
-                            <p>Don't have an account? <Link to=''>Sign up here</Link></p>
+                            <p>Don't have an account? <Link onClick={() => {
+                                handleClose();
+
+                                setTimeout(() => {
+                                    handleType('register')
+                                    handleShow()
+                                }, 300)
+                            }} to=''>Sign up here</Link></p>
                         </div>
                         <div className={style.body}>
                             <Form>
@@ -61,7 +69,14 @@ function SignModal({ show, handleClose, type }) {
                         <div className={style.header}>
                             <h3>Join us!<br />Get premium benefits.</h3>
                             <img src={registerImg} alt='signinimg' />
-                            <p>Already have an account?? <Link to=''>Sign in here</Link></p>
+                            <p>Already have an account? <Link onClick={async () => {
+                                handleClose();
+
+                                setTimeout(() => {
+                                    handleType('login')
+                                    handleShow()
+                                }, 300)
+                            }} to=''>Sign in here</Link></p>
                         </div>
                         <div className={style.body}>
                             <Form>
@@ -98,6 +113,8 @@ function SignModal({ show, handleClose, type }) {
             </Modal >
         )
     }
+
+
 
 }
 
