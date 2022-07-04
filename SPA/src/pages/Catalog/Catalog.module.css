@@ -23,3 +23,12 @@
         display: block;
     }
 }
+
+@media screen and (min-width:2000px) {
+    .wrapper {
+        margin:auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,9 +1,9 @@
 import style from './Aside.module.css'
 
 const Aside = ({ show }) => {
-    
+
     return (
-        <aside className={`${style.aside} ${show ? style.hidden : ''}`}>
+        <aside className={` ${style.aside} ${show ? '' : style.hidden} `}>
             <span className={style.title}>
                 <h3 >Refine Search</h3>
             </span>

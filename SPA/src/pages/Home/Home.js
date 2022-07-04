@@ -7,9 +7,9 @@ import MainPageLayout from "../MainPageLayout/MainPageLayout"
 const Home = () => {
     return (
         <MainPageLayout>
-            <SearchSection />
-            <BodyCategoriesSection />
-            <LatestOffersSection />
+                <SearchSection />
+                <BodyCategoriesSection />
+                <LatestOffersSection />
         </MainPageLayout>
 
     )
