@@ -40,13 +40,14 @@
     padding: 5px 10px;
     color: white;
     border-radius: 10px;
+    border: 1px solid rgb(66, 63, 78);
 }
 
 .aside input {
     background-color: rgb(40, 36, 53);
     padding: 5px 10px;
     color: white;
-    border: 1px solid gray;
+    border: 1px solid rgb(66, 63, 78);
     border-radius: 10px;
 }
 
@@ -137,7 +138,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(66, 63, 78);
     border-radius: 10px;
 }
 
@@ -151,20 +152,20 @@
 }
 
 .first {
-    border-right: 1px solid gray;
+    border-right: 1px solid rgb(66, 63, 78);
 }
 
 .first p {
-    border-left: 0 solid gray;
+    border-left: 0 solid rgb(66, 63, 78);
     border-radius: 10px 0 0 10px;
 }
 
 .third {
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(66, 63, 78);
 }
 
 .third p {
-    border-right: 0 solid gray;
+    border-right: 0 solid rgb(66, 63, 78);
     border-radius: 0 10px 10px 0;
 }
 
