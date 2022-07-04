@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col"
 
 import style from './SearchBar.module.css'
 
-import search from '../../assets/images/search.png'
+import search from '../../../assets/images/search.png'
 
 
 const SearchBar = () => {

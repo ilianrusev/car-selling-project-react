@@ -1,6 +1,6 @@
 import { Container, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
-import VehicleCard from "./VehicleCard"
+import VehicleCard from "../VehicleCard/VehicleCard"
 
 import style from "./LatestOffersSection.module.css"
 

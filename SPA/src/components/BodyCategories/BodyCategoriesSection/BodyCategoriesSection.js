@@ -1,15 +1,15 @@
 import style from "./BodyCategoriesSection.module.css"
 
-import SingleBodyCategory from "./SingleBodyCategory"
+import SingleBodyCategory from "../SingleBodyCategory/SingleBodyCategory"
 
-import hatchback from "../../assets/images/compact.svg"
-import convertible from "../../assets/images/convertible.svg"
-import coupe from "../../assets/images/coupe.svg"
-import pickup from "../../assets/images/pickup.svg"
-import sedan from "../../assets/images/sedan.svg"
-import suv from "../../assets/images/suv.svg"
-import van from "../../assets/images/van.svg"
-import wagon from "../../assets/images/wagon.svg"
+import hatchback from "../../../assets/images/compact.svg"
+import convertible from "../../../assets/images/convertible.svg"
+import coupe from "../../../assets/images/coupe.svg"
+import pickup from "../../../assets/images/pickup.svg"
+import sedan from "../../../assets/images/sedan.svg"
+import suv from "../../../assets/images/suv.svg"
+import van from "../../../assets/images/van.svg"
+import wagon from "../../../assets/images/wagon.svg"
 
 
 

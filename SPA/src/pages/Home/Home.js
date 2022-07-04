@@ -1,6 +1,6 @@
-import BodyCategoriesSection from "../../components/BodyCategories/BodyCategoriesSection"
+import BodyCategoriesSection from "../../components/BodyCategories/BodyCategoriesSection/BodyCategoriesSection"
 import LatestOffersSection from "../../components/LatestOffersSection/LatestOffersSection"
-import SearchSection from "../../components/SearchSectionHome/SearchSection"
+import SearchSection from "../../components/SearchSectionHome/SearchSection/SearchSection"
 import MainPageLayout from "../MainPageLayout/MainPageLayout"
 
 

@@ -86,9 +86,13 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" >
+                                    <Form.Label>Phone</Form.Label>
+                                    <Form.Control placeholder="Enter phone number" />
+                                </Form.Group>
+
+                                <Form.Group className="mb-3" >
                                     <Form.Label>Email address</Form.Label>
                                     <Form.Control type="email" placeholder="Enter email" />
-
                                 </Form.Group>
 
                                 <Form.Group className="mb-3">

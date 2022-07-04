@@ -1,6 +1,6 @@
 import style from './CardGrid.module.css'
 
-import VehicleCard from '../../LatestOffersSection/VehicleCard'
+import VehicleCard from '../../VehicleCard/VehicleCard'
 
 const CardGrid = () => {
     return (

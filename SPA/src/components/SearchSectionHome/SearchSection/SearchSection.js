@@ -1,8 +1,8 @@
 import { Col, Image, Row } from 'react-bootstrap';
 import style from './SearchSection.module.css';
 
-import car from '../../assets/images/home-car.png'
-import SearchBar from './SearchBar';
+import car from '../../../assets/images/home-car.png'
+import SearchBar from '../SearchBar/SearchBar';
 
 
 const SearchSection = () => {

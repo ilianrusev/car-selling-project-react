@@ -1,11 +1,10 @@
-import Aside from "../../components/CatalogSection/Filters/Aside"
 import MainPageLayout from "../MainPageLayout/MainPageLayout"
 
 
 const About = () => {
     return (
         <MainPageLayout>
-            <Aside />
+            <p>this is about page</p>
         </MainPageLayout>
     )
 }
