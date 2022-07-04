@@ -1,6 +1,6 @@
 .aside {
     float: left;
-    width: 350px;
+    width: 450px;
     color: white;
     padding: 50px 25px;
     border-right: 1px solid gray;
@@ -9,15 +9,17 @@
     margin-bottom: 50px;
 }
 
-@media screen and (max-width:600px) {
-    .aside {
-        width: 100%
-    }
+.hidden {
+    display: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     .aside {
-        display: none
+        border: none;
+        width: 100%;
+        align-items: center;
+        padding-top: 0;
+
     }
 }
 

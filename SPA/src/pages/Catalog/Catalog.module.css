@@ -3,10 +3,18 @@
 }
 
 .btn {
+    background-color: #fd5631;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px 30px 10px;
+    font-weight: bold;
+    padding: 6px 12px;
     display: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     .wrapper {
         flex-direction: column;
     }

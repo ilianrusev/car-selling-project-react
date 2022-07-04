@@ -1,8 +1,9 @@
 import style from './Aside.module.css'
 
-const Aside = () => {
+const Aside = ({ show }) => {
+    
     return (
-        <aside className={`${style.aside}`}>
+        <aside className={`${style.aside} ${show ? style.hidden : ''}`}>
             <span className={style.title}>
                 <h3 >Refine Search</h3>
             </span>
@@ -130,7 +131,7 @@ const Aside = () => {
                 <span className={style['trans-wrapper']}>
                     <h5>Transmission</h5>
                     <div className={style.radios}>
-                        <label className={`${style['radio-wrapper']} ${style.first}`}>
+                        <label className={`${style['radio-wrapper']} ${style.first} `}>
                             <input
                                 type="radio"
                                 value="Any"
@@ -139,7 +140,7 @@ const Aside = () => {
                             <p>Any</p>
                         </label>
 
-                        <label className={`${style['radio-wrapper']} ${style.second}`}>
+                        <label className={`${style['radio-wrapper']} ${style.second} `}>
                             <input
                                 type="radio"
                                 value="Manual"
@@ -148,7 +149,7 @@ const Aside = () => {
                             <p>Manual</p>
                         </label>
 
-                        <label className={`${style['radio-wrapper']} ${style.third}`}>
+                        <label className={`${style['radio-wrapper']} ${style.third} `}>
                             <input
                                 type="radio"
                                 value="Auto"
