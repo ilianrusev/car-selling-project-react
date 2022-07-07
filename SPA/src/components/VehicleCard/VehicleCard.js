@@ -15,7 +15,7 @@ const LatestOfferCard = (props) => {
     pathname === '/catalog' ? catalog = true : catalog = false
 
     return (
-        <Col xs='12' md={catalog ? '' : '6'} lg={catalog ? '' : '3'} className={`xs-12 ${catalog ? '' : 'mb-3'}`} >
+        <Col xs='12' md={catalog ? '' : '12'} lg={catalog ? '' : '12'} className={` ${catalog ? '' : 'mb-5'}`} >
             <div className={style['card-wrapper']}>
                 <div className={style['img-wrapper']} >
                     <img src={props.src} alt="car-img" />
