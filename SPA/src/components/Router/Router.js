@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Catalog from "../../pages/Catalog/Catalog";
-import SignModal from "../SIgnModal/SignModal";
 import LoadingSpinner from "../Spinner/Spinner";
 
 const NotFound = lazy(() => import("../../pages/404/NotFound"));

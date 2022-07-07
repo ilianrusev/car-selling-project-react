@@ -1,5 +1,4 @@
 
-import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import style from './NotFound.module.css'
 

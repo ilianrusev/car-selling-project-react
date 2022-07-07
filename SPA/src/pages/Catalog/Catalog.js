@@ -29,9 +29,9 @@ const Catalog = () => {
         
         window.addEventListener('resize', handleResize)
 
-    }, [])
+    }, [handleResize,width])
 
-    const handleShow = () => show == true ? setShow(false) : setShow(true);
+    const handleShow = () => show === true ? setShow(false) : setShow(true);
     return (
 
         <MainPageLayout>

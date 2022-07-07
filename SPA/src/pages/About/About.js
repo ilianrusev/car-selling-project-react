@@ -1,11 +1,10 @@
-import MyCarousel from "../../components/Carousel/Carousel"
 import MainPageLayout from "../MainPageLayout/MainPageLayout"
 
 
 const About = () => {
     return (
         <MainPageLayout>
-            <MyCarousel />
+            <p>this is about page</p>
         </MainPageLayout>
     )
 }
