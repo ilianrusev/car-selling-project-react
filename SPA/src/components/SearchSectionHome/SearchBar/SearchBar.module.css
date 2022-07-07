@@ -5,9 +5,27 @@
 
 }
 
+.row {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    align-self: center;
+}
+
+
+
 .input {
     background-color: transparent;
     border: none;
+}
+
+@media screen and (max-width: 991px) {
+    .input {
+        width: 100%!important;
+    }
 }
 
 .input:focus {

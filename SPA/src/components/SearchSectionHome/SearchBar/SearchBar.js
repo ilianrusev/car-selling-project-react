@@ -1,5 +1,4 @@
 import { Form, InputGroup } from "react-bootstrap"
-import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import style from './SearchBar.module.css'
@@ -10,14 +9,14 @@ import search from '../../../assets/images/search.png'
 const SearchBar = () => {
     return (
         <Form action="/catalog" method="get" >
-            <Row className='w-100 m-0 p-3 '>
-                <Form.Group className={` p-2 mx-4 w-100 ${style.form}`}>
-                    <Row className='ms-sm-n2 '>
-                        <Col className='d-sm-flex '>
-                            <InputGroup className='w-sm-100  align-items-center justify-content-center'>
+            <div className={`w-75 ${style.row}`}>
+                <Form.Group className={` py-2 w-100 ${style.form}`}>
+                    <div className='px-0 '>
+                        <Col className='d-sm-flex  '>
+                            <InputGroup className='w-sm-100 flex-lg-row flex-column align-items-lg-center justify-content-center'>
                                 <img width='25' height='25' src={search} className={style.img} alt='search' />
-                                <Form.Control className={` border-right mr-2 ${style.input}`} placeholder='Find car ...' />
-                                <Form.Select name='make' className={`${style['body-type']}`} aria-label="Make" >
+                                <Form.Control className={`border-right  ${style.input}`} placeholder='Search your car here ...' />
+                                <Form.Select name='make' className={`ml-lg-2 ${style['body-type']}`} aria-label="Make" >
                                     <option value='0'>Make</option>
                                     <option value='acura'>Acura</option>
                                     <option value='alfa-romeo'>Alfa Romeo</option>
@@ -72,7 +71,7 @@ const SearchBar = () => {
                                     <option value='volkswagen'>Volkswagen</option>
                                     <option value='volvo'>Volvo</option>
                                 </Form.Select>
-                                <Form.Select name='type' className={`ml-2 ${style['body-type']}`} aria-label="Body type" >
+                                <Form.Select name='type' className={`ml-lg-2 ${style['body-type']}`} aria-label="Body type" >
                                     <option value='0'>Body type</option>
                                     <option value='sedan'>Sedan</option>
                                     <option value='suv'>SUV</option>
@@ -83,7 +82,7 @@ const SearchBar = () => {
                                     <option value='convertible'>Convertible</option>
                                     <option value='van'>Van</option>
                                 </Form.Select>
-                                <Form.Select name='fuel' className={`ml-2 ${style['body-type']}`} aria-label="Body type" >
+                                <Form.Select name='fuel' className={`ml-lg-2 ${style['body-type']}`} aria-label="Body type" >
                                     <option value='0'>Fuel type</option>
                                     <option value='diesel'>Diesel</option>
                                     <option value='gasoline'>Gasoline</option>
@@ -91,12 +90,12 @@ const SearchBar = () => {
                                     <option value='hybrid'>Hybrid</option>
                                     <option value='electric'>Electric</option>
                                 </Form.Select>
-                                <button type="submit" className={`ml-2 ${style.search}`}>Search</button>
+                                <button type="submit" className={`ml-lg-2 ${style.search}`}>Search</button>
                             </InputGroup>
                         </Col>
-                    </Row>
+                    </div>
                 </Form.Group>
-            </Row>
+            </div>
         </Form>
     )
 }

@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    row-gap:25px;
+    margin-bottom:60px;
 }
 
 .item {
@@ -24,3 +26,4 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+

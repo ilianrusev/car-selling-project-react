@@ -2,16 +2,14 @@ import { Container, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import VehicleCard from "../VehicleCard/VehicleCard"
 
-import style from "./LatestOffersSection.module.css"
 
 const LatestOffersSection = () => {
     return (
-        // <section className={style.wrapper}>
         <Container fluid className='mb-5'  >
 
-            <Row className='mb-5 mx-4 px-2 align-items-center justify-content-between'>
-                <div className='text-white font-weight-bold h2'>Latest cars</div>
-                <Link to='/catalog' className='text-white h6 text-decoration-none'>View all offers </Link>
+            <Row className='mb-5 align-items-center justify-content-around'>
+                <div className='text-white font-weight-bold h2 '>Latest cars</div>
+                <Link to='/catalog' className='text-white h6 text-decoration-none'>View all offers -></Link>
             </Row>
 
             <Row className='justify-content-around mx-3' >
@@ -46,7 +44,7 @@ const LatestOffersSection = () => {
                     trans='Manual'
                     fuel='Diesel'
                 />
-                <VehicleCard
+                {/* <VehicleCard
                     src='https://nastarta-shop.com/wp-content/uploads/2022/03/eng_pl_front-splitter-v-2-bmw-3-e90-14956_5.jpg'
                     year='2006'
                     price='15 000'
@@ -55,11 +53,10 @@ const LatestOffersSection = () => {
                     dist='130k'
                     trans='Auto'
                     fuel='Gasoline'
-                />
+                /> */}
             </Row>
         </Container>
 
-        // </section>
     )
 }
 

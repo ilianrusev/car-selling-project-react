@@ -12,9 +12,10 @@ import { Col, Row } from "react-bootstrap"
 const LatestOfferCard = (props) => {
     let { pathname } = useLocation()
     let catalog = false
-    pathname == '/catalog' ? catalog = true : catalog = false
+    pathname === '/catalog' ? catalog = true : catalog = false
+
     return (
-        <Col xs='12' md={catalog ? '' : '6'} lg={catalog ? '' : '3'} className='mb-4 xs-12 md-6 lg-3' >
+        <Col xs='12' md={catalog ? '' : '6'} lg={catalog ? '' : '3'} className={`xs-12 ${catalog ? '' : 'mb-3'}`} >
             <div className={style['card-wrapper']}>
                 <div className={style['img-wrapper']} >
                     <img src={props.src} alt="car-img" />

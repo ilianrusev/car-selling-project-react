@@ -97,12 +97,12 @@ const NavBar = () => {
                                     setExpanded(false);
                                     handleShow()
                                 }}>Sign in</Nav.Link>
-                            </Nav.Item>
+                        </Nav.Item>
 
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
         </>
 
     )
