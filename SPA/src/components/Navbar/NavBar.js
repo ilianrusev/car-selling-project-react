@@ -89,20 +89,20 @@ const NavBar = () => {
                                 <Nav.Link onClick={() => setExpanded(false)} as={Link} to='/pricing'>Pricing</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link onClick={() => setExpanded(false)} as={Link} to='/about' >About</Nav.Link>
+                                <Nav.Link  onClick={() => setExpanded(false)} as={Link} to='/about' >About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link onClick={() => {
+                                <Nav.Link className='sm-h5' onClick={() => {
                                     handleType('login')
                                     setExpanded(false);
                                     handleShow()
                                 }}>Sign in</Nav.Link>
-                        </Nav.Item>
+                            </Nav.Item>
 
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </>
 
     )
