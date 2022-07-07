@@ -4,7 +4,9 @@ import MainPageLayout from "../MainPageLayout/MainPageLayout"
 const About = () => {
     return (
         <MainPageLayout>
-            <p>this is about page</p>
+            <div style={{ margin: 'auto' }}>
+                <p>this is about page</p>
+            </div>
         </MainPageLayout>
     )
 }
