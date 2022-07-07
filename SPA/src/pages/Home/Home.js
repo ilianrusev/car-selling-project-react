@@ -11,7 +11,6 @@ const Home = () => {
                 <BodyCategoriesSection />
                 <LatestOffersSection />
         </MainPageLayout>
-
     )
 }
 
