@@ -4,7 +4,7 @@ import style from './Specifications.module.css'
 const Specifications = () => {
     return (
         <section className='p-3 mb-3'>
-            <h2 className='h4 text-light mb-4'>Specifications</h2>
+            <h3 className=' text-light mb-4'>Specifications</h3>
             <Row className='text-light'>
 
                 <Col sm={6} md={12} lg={6} className=''>

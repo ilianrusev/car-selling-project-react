@@ -1,0 +1,15 @@
+import { Col, Row } from 'react-bootstrap'
+import style from './Description.module.css'
+
+const Description = () => {
+    return (
+        <Col className={`w-100 px-4 mb-5 ${style.wrapper}`}>
+            <h3 className='text-light mb-4 px-2'>Seller's Description</h3>
+            <Col className={`p-3 ${style.body}`}>
+                <p className=''>Lorem tincidunt lectus vitae id vulputate diam quam. Imperdiet non scelerisque turpis sed etiam ultrices. Blandit mollis dignissim egestas consectetur porttitor. Vulputate dolor pretium, dignissim eu augue sit ut convallis. Lectus est, magna urna feugiat sed ultricies sed in lacinia. Fusce potenti sit id pharetra vel ornare. Vestibulum sed tellus ullamcorper arcu.</p>
+            </Col>
+        </Col>
+    )
+}
+
+export default Description
