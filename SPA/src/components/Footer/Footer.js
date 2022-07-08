@@ -13,12 +13,10 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 
-
 const Footer = () => {
     return (
 
         <footer className={style.footer}>
-            {/* <section className={style.wrapper}> */}
             <Row className='mx-0 w-100 mt-3'>
                 <Col className={style.company}>
                     <h5>Company</h5>
@@ -60,7 +58,6 @@ const Footer = () => {
                 <Row className={`${style.rights} justify-content-center`}>© All rights reserved. Made by Ilian Rusev</Row>
 
             </Row>
-            {/* </section> */}
         </footer>
     )
 }

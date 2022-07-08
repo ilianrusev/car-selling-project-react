@@ -8,8 +8,6 @@ const MainPageLayout = ({ children }) => {
     const [title, setTitle] = useState("Default Title");
     let { pathname } = useLocation()
 
-
-
     useEffect(() => {
         switch (pathname) {
             case '/':

@@ -44,32 +44,24 @@ const LatestOfferCard = (props) => {
 
                     <div className={style['row-wrapper']}>
 
-                        {/* <div className={style.row}> */}
                         <Row className=" align-items-center mx-0 justify-content-around ">
 
-                            {/* <div className={style['dist-wrapper']}> */}
                             <Col xs={3} md={3} lg={4} className={`justify-content-center align-items-center py-2 px-1 ${style['dist-wrapper']} `}>
                                 <Row className='align-items-center justify-content-center '><img src={speedometer} alt='speedometer' className={style['dist-img']} /></Row>
                                 <Row className='align-items-center justify-content-center'><span className={style.dist}>{props.dist} km</span></Row>
                             </Col>
-                            {/* </div> */}
 
-                            {/* <div className={style['trans-wrapper']}> */}
                             <Col xs={3} md={3} lg={4} className={`justify-content-center  align-items-center  py-2 px-1 ${style['trans-wrapper']} `}>
                                 <Row className='align-items-center justify-content-center'> <img src={gearbox} alt='gearbox' className={style['trans-img']} /></Row>
                                 <Row className='align-items-center justify-content-center'>   <span className={style.trans}>{props.trans}</span></Row>
                             </Col>
-                            {/* </div> */}
 
-                            {/* <div className={style['fuel-wrapper']}> */}
                             <Col xs={3} md={3} lg={4} className={` justify-content-center align-items-center  py-2 px-1 ${style['fuel-wrapper']}`}>
                                 <Row className='align-items-center justify-content-center'>  <img src={fuel} alt='fuelcan' className={style['fuel-img']} /></Row>
                                 <Row className='align-items-center justify-content-center'> <span className={style.fuel}>{props.fuel}</span></Row>
                             </Col>
-                            {/* </div> */}
 
                         </Row>
-                        {/* </div> */}
 
                     </div>
 

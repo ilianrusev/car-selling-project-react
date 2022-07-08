@@ -15,7 +15,7 @@ const SearchBar = () => {
                         <Col className='d-sm-flex  '>
                             <InputGroup className='w-sm-100 flex-lg-row flex-column align-items-lg-center justify-content-center'>
                                 <img width='25' height='25' src={search} className={style.img} alt='search' />
-                                <Form.Control className={`border-right  ${style.input}`} placeholder='Search your car here ...' />
+                                <Form.Control className={`border-right  ${style.input}`} placeholder='Search by model ...' />
                                 <Form.Select name='make' className={`ml-lg-2 ${style['body-type']}`} aria-label="Make" >
                                     <option value='0'>Make</option>
                                     <option value='acura'>Acura</option>

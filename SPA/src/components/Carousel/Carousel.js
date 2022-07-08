@@ -30,14 +30,14 @@ const MyCarousel = () => {
                 desktop: {
                     breakpoint: {
                         max: 3000,
-                        min: 1024
+                        min: 1120
                     },
                     items: 4,
                     partialVisibilityGutter: 40
                 },
                 mobile: {
                     breakpoint: {
-                        max: 580,
+                        max: 630,
                         min: 0
                     },
                     items: 1,
@@ -45,8 +45,8 @@ const MyCarousel = () => {
                 },
                 tablet: {
                     breakpoint: {
-                        max: 1024,
-                        min: 580
+                        max: 1120,
+                        min: 630
                     },
                     items: 2,
                     partialVisibilityGutter: 30

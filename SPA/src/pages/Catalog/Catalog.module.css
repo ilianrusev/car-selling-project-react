@@ -14,15 +14,10 @@
     display: none;
 }
 
-
-
-
-
 @media screen and (max-width:1000px) {
     .wrapper {
         flex-direction: column;
         margin: 0;
-        
     }
 
     .btn {
@@ -35,7 +30,6 @@
         margin: auto;
         display: flex;
         justify-content: center;
-
     }
 
 }

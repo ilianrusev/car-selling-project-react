@@ -1,6 +1,13 @@
 .wrapper {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+@media screen and (max-width:768px) {
+    .wrapper {
+        margin-left:5%;
+        margin-right:5%;
+    }
 }
 
 .heading {
@@ -14,7 +21,6 @@
     opacity: .5;
     font-size: 18px;
     text-align: center;
-
 }
 
 .col2 {

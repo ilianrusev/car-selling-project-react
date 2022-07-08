@@ -10,12 +10,17 @@ import sedan from "../../../assets/images/sedan.svg"
 import suv from "../../../assets/images/suv.svg"
 import van from "../../../assets/images/van.svg"
 import wagon from "../../../assets/images/wagon.svg"
+import { Row } from "react-bootstrap"
 
 
 
 const BodyCategoriesSection = () => {
     return (
         <section className={style['body-type']}>
+            <Row className='mb-5'>
+                <div className='text-white font-weight-bold h2 '>Popular car body types</div>
+            </Row>
+
             <SingleBodyCategory type='Sedan' src={sedan} />
             <SingleBodyCategory type='SUV' src={suv} />
             <SingleBodyCategory type='Wagon' src={wagon} />
@@ -24,6 +29,7 @@ const BodyCategoriesSection = () => {
             <SingleBodyCategory type='Hatchback' src={hatchback} />
             <SingleBodyCategory type='Convertible' src={convertible} />
             <SingleBodyCategory type='Van' src={van} />
+
         </section>
     )
 }
