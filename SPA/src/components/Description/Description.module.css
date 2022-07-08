@@ -1,14 +1,12 @@
 .body {
-    border-radius: 10px;
-    border: 1px solid rgb(66, 63, 78);
+    border-bottom: 1px solid rgb(66, 63, 78);
+
 }
 
 .body p {
     opacity: .7;
     font-family: "Noto Sans", sans-serif;
-    font-size: 1.2rem
-}
-
-.wrapper {
-    border-bottom: 1px solid rgb(66, 63, 78);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid rgb(66, 63, 78);
 }
