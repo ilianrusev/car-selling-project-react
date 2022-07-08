@@ -3,14 +3,14 @@ import style from './FeaturesAccordion.module.css'
 
 const Features = () => {
     return (
-        <Accordion className={`w-75 ${style.wrapper}`} >
+        <Accordion className={`w-100 ${style.wrapper}`} >
             <Accordion.Item className={style.item} eventKey="0">
                 <Accordion.Header>Exterior</Accordion.Header>
                 <Accordion.Body className={style.body}>
                     <Row className='text-light'>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Alloy Wheels
                                 </li>
@@ -31,7 +31,7 @@ const Features = () => {
                         </Col>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Tow Hitch
                                 </li>
@@ -58,7 +58,7 @@ const Features = () => {
                     <Row className='text-light'>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Adjustable Steering Wheel
                                 </li>
@@ -66,10 +66,10 @@ const Features = () => {
                                     Auto-Dimming Rearview Mirror
                                 </li>
                                 <li className='mb-2'>
-                                    Driver Adjustable Lumbar
+                                    Adjustable Lumbar
                                 </li>
                                 <li className='mb-2'>
-                                    Universal Garage Door Opener
+                                    Garage Door Opener
                                 </li>
                                 <li className='mb-2'>
                                     Steering Wheel Audio Controls
@@ -81,7 +81,7 @@ const Features = () => {
                         </Col>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Leather Seats
                                 </li>
@@ -111,7 +111,7 @@ const Features = () => {
                     <Row className='text-light'>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Airbag: Driver
                                 </li>
@@ -134,7 +134,7 @@ const Features = () => {
                         </Col>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Stability Control
                                 </li>
@@ -164,7 +164,7 @@ const Features = () => {
                     <Row className='text-light'>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Multi-Zone A/C
                                 </li>
@@ -187,7 +187,7 @@ const Features = () => {
                         </Col>
 
                         <Col sm={6} md={12} lg={6} className=''>
-                            <ul className=''>
+                            <ul className='mb-0'>
                                 <li className='mb-2'>
                                     Android Auto
                                 </li>
