@@ -1,0 +1,72 @@
+import { Col, Row } from 'react-bootstrap'
+import style from './Specifications.module.css'
+
+const Specifications = () => {
+    return (
+        <section className='p-3 mb-3'>
+            <h2 className='h4 text-light mb-4'>Specifications</h2>
+            <Row className='text-light'>
+
+                <Col sm={6} md={12} lg={6} className=''>
+                    <ul className='list-unstyled'>
+                        <li className='mb-2'>
+                            <strong>Manifacturing Year: </strong>
+                            <span className=''>2018</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Mileage: </strong>
+                            <span className=''>25k KM</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Body Type: </strong>
+                            <span className=''>Convertible</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Drivetrain: </strong>
+                            <span className=''>FWD</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Engine: </strong>
+                            <span className=''>2.5L Turbo</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Transmission: </strong>
+                            <span className=''>7-Speed Automatic</span>
+                        </li>
+                    </ul>
+                </Col>
+
+                <Col sm={6} md={12} lg={6} className=''>
+                    <ul className='list-unstyled'>
+                        <li className='mb-2'>
+                            <strong>Fuel Type: </strong>
+                            <span className=''>Gasoline</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>City L/100km: </strong>
+                            <span className=''>15</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Highway L/100km: </strong>
+                            <span className=''>10</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Exterior Color: </strong>
+                            <span className=''>Aspen White</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>Interior Color: </strong>
+                            <span className=''>Gray</span>
+                        </li>
+                        <li className='mb-2'>
+                            <strong>VIN: </strong>
+                            <span className=''>2VW821AU9JM754284</span>
+                        </li>
+                    </ul>
+                </Col>
+            </Row>
+        </section>
+    )
+}
+
+export default Specifications

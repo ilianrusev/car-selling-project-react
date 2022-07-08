@@ -25,6 +25,9 @@ const MainPageLayout = ({ children }) => {
             case '/sell-car':
                 setTitle('Sell Car')
                 break;
+            case '/details':
+                setTitle('Details')
+                break;
             default:
                 setTitle('Home')
         }

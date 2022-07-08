@@ -28,7 +28,7 @@ const LatestOfferCard = (props) => {
                     </div>
 
                     <h4 className={style.name}>
-                        <Link to="/catalog" className="">{props.name}</Link>
+                        <Link to="/details" className="">{props.name}</Link>
                     </h4>
 
                     <div className={style.price}>${props.price}</div>

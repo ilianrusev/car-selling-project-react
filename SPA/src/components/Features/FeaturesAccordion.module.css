@@ -1,0 +1,38 @@
+.wrapper {
+    border-radius: 10px;
+    border: 1px solid rgb(66, 63, 78);
+}
+
+.wrapper button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, .7);
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 15px 0 15px 15px;
+}
+
+.wrapper button:focus {
+    outline: none;
+}
+
+.wrapper h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    border-bottom: 1px solid rgb(66, 63, 78);
+}
+
+.item:last-child {
+    border: none;
+}
+
+.body {
+    padding:0 25px;
+}
