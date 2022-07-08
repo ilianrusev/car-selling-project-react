@@ -1,0 +1,18 @@
+.wrapper {
+    border-radius: 10px;
+    padding: 7px 12px 7px 12px;
+    font-size: 1rem;
+    height: 100%;
+}
+
+.used {
+    background-color: rgb(60, 118, 241);
+}
+
+.new {
+    background-color: rgb(60, 118, 241);
+}
+
+.certified {
+    background-color: rgb(7, 201, 139)
+}
