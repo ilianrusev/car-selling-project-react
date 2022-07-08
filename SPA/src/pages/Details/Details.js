@@ -7,7 +7,7 @@ import MainPageLayout from "../MainPageLayout/MainPageLayout"
 const Details = () => {
     return (
         <MainPageLayout>
-            <Description />
+            <Features />
         </MainPageLayout>
     )
 }

@@ -1,4 +1,14 @@
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
+
+}
+
+.wrapper ul {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+.wrapper span {
+    opacity: .7;
 }
