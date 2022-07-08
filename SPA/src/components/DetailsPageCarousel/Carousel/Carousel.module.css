@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: 750px;
+    max-height: 420px;
+    border-radius:20px 20px 0 0
+}
+
+.wrapper div {
+    max-width: 750px;
+    max-height: 420px;
+}
+
+.wrapper img {
+    width: 100%;
+}
