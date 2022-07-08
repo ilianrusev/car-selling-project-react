@@ -1,0 +1,12 @@
+.footer {
+    font-size:1.4rem
+}
+
+.date {
+    border-right: 1px solid rgb(66, 63, 78);
+}
+
+.footer img{
+    width: 1.56rem;
+    margin-right:5px;
+}
