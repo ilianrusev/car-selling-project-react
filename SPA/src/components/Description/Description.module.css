@@ -9,3 +9,13 @@
     border-radius: 10px;
     border: 1px solid rgb(66, 63, 78);
 }
+
+.footer {
+    color: white;
+    opacity: .7;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.date {
+    border-right: 1px solid rgb(66, 63, 78);
+}

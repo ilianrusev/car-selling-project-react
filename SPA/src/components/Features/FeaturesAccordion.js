@@ -5,7 +5,7 @@ const Features = () => {
     return (
         <>
             <h3 className='font-weight-bold text-light mb-4'>Features</h3>
-            <Accordion className={`w-100 ${style.wrapper}`} >
+            <Accordion className={`w-100 mb-5 ${style.wrapper}`} >
                 <Accordion.Item className={style.item} eventKey="0">
                     <Accordion.Header>Exterior</Accordion.Header>
                     <Accordion.Body className={style.body}>
