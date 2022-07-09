@@ -3,7 +3,7 @@ import style from './FeaturesAccordion.module.css'
 
 const Features = () => {
     return (
-        <>
+        <Col className='p-0'>
             <h3 className='font-weight-bold text-light mb-4'>Features</h3>
             <Accordion className={`w-100 mb-5 ${style.wrapper}`} >
                 <Accordion.Item className={style.item} eventKey="0">
@@ -214,8 +214,7 @@ const Features = () => {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion >
-        </>
-
+        </Col>
     )
 }
 

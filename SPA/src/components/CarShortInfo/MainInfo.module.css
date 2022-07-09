@@ -2,6 +2,10 @@
     font-size:1.4rem
 }
 
+/* .wrapper{
+    height: 92px;
+} */
+
 .date {
     border-right: 1px solid rgb(66, 63, 78);
 }

@@ -8,13 +8,13 @@ import location from '../../assets/images/location.png'
 
 const MainInfo = () => {
     return (
-        <section className=''>
-            <Row className={`ml-0 text-light d-flex align-items-center`}>
+        <section className='mb-4' >
+            <Row className={`ml-0 w-100 text-light d-flex align-items-center`}>
                 <h3 className='font-weight-bold mb-0 mr-3'>$31,900</h3>
                 <InfoBox property={'Used'} />
                 <InfoBox property={'Certified'} />
             </Row>
-            <Row className={`ml-0 mt-4 text-light ${style.footer}`}>
+            <Row className={`ml-0 w-100 mt-4 text-light ${style.footer}`}>
                 <Col className={`ml-0 align-items-center p-0 ${style.date}`}>
                     <span><img src={speedometer} alt='speedometer' />25K KM</span>
                 </Col>

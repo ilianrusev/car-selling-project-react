@@ -1,27 +1,29 @@
+import merc from '../../assets/images/merc.jpg'
+
 const DUMMY_IMAGES = [
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/01.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='12312'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_MG.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/02.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='123ffsdfsdfs12'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_LX.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/03.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='123rwerwe12'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_tE.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/04.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='123fsdfsd12'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_gI.png' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/05.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='12adasdasdafs312'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_lP.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/06.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='12ggfdgd312'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_bt.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/07.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='12gdfg312'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_6D.jpg' alt='car' />
     </div>,
-    <div>
-        <img src='https://finder.createx.studio/img/car-finder/single/gallery/08.jpg' alt='car' />
+    <div style={{ width: '100%', height: '100%' }} key='123rwerwf312'>
+        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic4.focus.bg/mobile/photosmob/841/2/big/21620768350740841_SN.jpg' alt='car' />
     </div>
 ]
 

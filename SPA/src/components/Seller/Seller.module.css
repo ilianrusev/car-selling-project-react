@@ -1,5 +1,7 @@
 .wrapper {
     background-color: rgb(40, 36, 53);
+    border-radius: 10px;
+    height:305px;
 }
 
 .wrapper img {
@@ -14,6 +16,7 @@
 
 .link:hover {
     color: orange;
+    text-decoration: none;
 }
 
 .phone {
@@ -22,6 +25,7 @@
     padding: 13px 24px;
     display: flex;
     max-width: 250px;
+    margin-top:70px
 }
 
 .phone:hover {

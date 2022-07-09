@@ -1,7 +1,7 @@
 import React from "react";
 
 import style from './CustomDot.module.css'
-import DUMMY_IMAGES from "../DummyImages";
+import DUMMY_IMAGES from "../DummyImages2";
 
 
 const CustomDot = ({ onClick, ...rest }) => {

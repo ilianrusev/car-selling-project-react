@@ -3,11 +3,11 @@ import style from './Specifications.module.css'
 
 const Specifications = () => {
     return (
-        <section className={`px-0 mx-0 mb-3 ${style.wrapper}`}>
+        <section className={`px-0 mx-0 mb-4 ${style.wrapper}`}>
             <h3 className='font-weight-bold text-light mb-4'>Specifications</h3>
             <Row className='text-light mx-0'>
 
-                <Col sm={6} md={12} lg={6} className='px-0'>
+                <Col xs={8} sm={6} className='px-0 h-50'>
                     <ul className='list-unstyled'>
                         <li className='mb-2'>
                             <strong>Manifacturing Year: </strong>
@@ -36,7 +36,7 @@ const Specifications = () => {
                     </ul>
                 </Col>
 
-                <Col sm={6} md={12} lg={6} className='px-0'>
+                <Col xs={8} sm={6} className='h-50 px-0'>
                     <ul className='list-unstyled'>
                         <li className='mb-2'>
                             <strong>Fuel Type: </strong>

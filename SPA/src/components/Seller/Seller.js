@@ -10,8 +10,8 @@ const Seller = () => {
     const [hidden, setHidden] = useState(true)
 
     return (
-        <section className={`p-4 text-light ${style.wrapper}`}>
-            <p className='mb-2'>Private Seller</p>
+        <section className={`mb-4 p-4 text-light ${style.wrapper}`}>
+            <p className='mb-4'>Private Seller</p>
             <div className='d-flex mb-5' >
                 <img src={userPhoto} alt='user' />
                 <span className='pl-2'>
