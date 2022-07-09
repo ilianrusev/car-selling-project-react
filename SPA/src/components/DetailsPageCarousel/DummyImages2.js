@@ -1,28 +1,28 @@
 
 const DUMMY_IMAGES = [
     <div key='12312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Fd.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_3t.jpg' alt='car' />
     </div>,
     <div key='123ffsdfsdfs12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Y.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_OF.jpg' alt='car' />
     </div>,
     <div key='123rwerwe12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_5j.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_UC.jpg' alt='car' />
     </div>,
     <div key='123fsdfsd12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_1z.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_RU.jpg' alt='car' />
     </div>,
     <div key='12adasdasdafs312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Ty.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_WT.jpg' alt='car' />
     </div>,
     <div key='12ggfdgd312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_nb.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_RI.jpg' alt='car' />
     </div>,
     <div key='12gdfg312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_gW.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_Qm.jpg' alt='car' />
     </div>,
     <div key='123rwerwf312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Sf.jpg' alt='car' />
+        <img src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_mg.jpg' alt='car' />
     </div>
 ]
 

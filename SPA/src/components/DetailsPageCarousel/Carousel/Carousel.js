@@ -19,7 +19,7 @@ const MyCarousel = () => {
                 centerMode={false}
                 className={style.wrapper}
                 containerClass={style.container}
-                dotListClass=''
+                dotListClass={style.dots}
                 customDot={<CustomDot />}
                 draggable
                 focusOnSelect={false}

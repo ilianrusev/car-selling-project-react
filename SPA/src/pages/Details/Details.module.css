@@ -15,8 +15,7 @@
 .bottom-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -33,9 +32,11 @@
     .bottom-wrapper {
         flex-direction: column;
         justify-content: center;
+        margin:0
     }
 
     .column {
+        margin-top:20px;
         max-width: none;
     }
 }

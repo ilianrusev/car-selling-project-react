@@ -17,7 +17,7 @@ const Details = () => {
             <div className={style.wrapper}>
                 <h2 className='text-light font-weight-bold mb-4 '>Mercedes-Benz E 400 Cabriolet</h2>
                 <Col className='m-0 p-0'>
-                    <Row className='m-0 justify-content-center'>
+                    <Row className='m-0  justify-content-center'>
                         <Carousel />
                         <Col className={`p-0 ${style.column}`}>
                             <MainInfo />

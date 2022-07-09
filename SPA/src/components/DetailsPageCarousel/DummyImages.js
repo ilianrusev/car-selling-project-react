@@ -1,30 +1,22 @@
 import merc from '../../assets/images/merc.jpg'
 
 const DUMMY_IMAGES = [
-    <div tyle={{ width: '100%', height: '100%' }} key='12312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Fd.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='123ffsdfsdfs12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Y.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='123rwerwe12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_5j.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='123fsdfsd12'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_1z.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='12adasdasdafs312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Ty.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='12ggfdgd312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_nb.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='12gdfg312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_gW.jpg' alt='car' />
-    </div>,
-    <div tyle={{ width: '100%', height: '100%' }} key='123rwerwf312'>
-        <img style={{ width: '100%', height: '100%' }} src='https://mobistatic1.focus.bg/mobile/photosmob/294/2/big/21649418615733294_Sf.jpg' alt='car' />
-    </div>
+    <img key='31231' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_3t.jpg' alt='car' />
+    ,
+    <img key='31fddgdsf231' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_OF.jpg' alt='car' />
+    ,
+    <img key='312543331' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_UC.jpg' alt='car' />
+    ,
+    <img key='312dasda431' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_RU.jpg' alt='car' />
+    ,
+    <img key='312dfdss31' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_WT.jpg' alt='car' />
+    ,
+    <img key='312fgfghdf31' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_RI.jpg' alt='car' />
+    ,
+    <img key='31sdattyr231' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_Qm.jpg' alt='car' />
+    ,
+    <img key='3164gdf231' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_mg.jpg' alt='car' />
+
 ]
 
 export default DUMMY_IMAGES
