@@ -32,6 +32,10 @@ const Details = () => {
                             <Features />
                         </Col>
                     </div>
+
+                    <Row className=' m-0'>
+                        <Description />
+                    </Row>
                 </Col>
 
             </div>
