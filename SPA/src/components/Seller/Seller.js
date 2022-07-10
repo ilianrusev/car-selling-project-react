@@ -13,7 +13,7 @@ const Seller = () => {
         <section className={`mb-4 p-4 text-light ${style.wrapper}`}>
             <p className='mb-4'>Private Seller</p>
             <div className='d-flex mb-5' >
-                <img src={userPhoto} alt='user' />
+                <img style={{borderRadius:'50%'}} src={userPhoto} alt='user' />
                 <span className='pl-2'>
                     <h4>Devon Lane</h4>
                     <Link to='/user' className={`${style.link}`}>Other ads by this seller</Link>
