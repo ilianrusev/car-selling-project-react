@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 import style from './Footer.module.css'
 
@@ -13,7 +14,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 
-const Footer = () => {
+const Footer = ({ handleType, handleShow }) => {
     return (
 
         <footer className={style.footer}>
@@ -26,9 +27,15 @@ const Footer = () => {
                 </Col>
                 <Col className={style.dealer}>
                     <h5>Dealer</h5>
-                    <Link to='/login'>Login</Link>
-                    <Link to='/register'>Register</Link>
-                    <Link to='/add'>Add Listing</Link>
+                    <Link to='' onClick={() => {
+                        handleType('login')
+                        handleShow()
+                    }}>Login</Link>
+                    <Link to='' onClick={() => {
+                        handleType('register')
+                        handleShow()
+                    }}>Register</Link>
+                    <Link to='/add-listing'>Add Listing</Link>
                     <Link to='/catalog'>Catalog</Link>
                 </Col>
                 <Col className={style.contacts}>

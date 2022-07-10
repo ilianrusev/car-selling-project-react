@@ -1,12 +1,21 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Footer from "../../components/Footer/Footer"
 import NavBar from "../../components/Navbar/NavBar"
+import SignModal from "../../components/SIgnModal/SignModal";
 
 
 const MainPageLayout = ({ children }) => {
     const [title, setTitle] = useState("Default Title");
     let { pathname } = useLocation()
+
+    const [type, setType] = useState('')
+
+    const handleType = (type) => setType(type);
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     useEffect(() => {
         switch (pathname) {
@@ -28,6 +37,9 @@ const MainPageLayout = ({ children }) => {
             case '/details':
                 setTitle('Details')
                 break;
+            case '/add-listing':
+                setTitle('Sell Car')
+                break;
             default:
                 setTitle('Home')
         }
@@ -35,11 +47,12 @@ const MainPageLayout = ({ children }) => {
     }, [title, pathname]);
 
     return (
-        <>
-            <NavBar />
+        <Fragment>
+            <SignModal show={show} handleClose={handleClose} handleShow={handleShow} handleType={handleType} type={type} />
+            <NavBar handleType={handleType} handleShow={handleShow} />
             {children}
-            <Footer />
-        </>
+            <Footer handleType={handleType} handleShow={handleShow} />
+        </Fragment>
     )
 }
 

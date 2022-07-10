@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button, Form, Modal } from "react-bootstrap";
 
 import style from './SignModal.module.css'
@@ -5,10 +6,17 @@ import style from './SignModal.module.css'
 import loginImg from '../../assets/images/signin-dark.png'
 import registerImg from '../../assets/images/signup-dark.png'
 
-import { Link } from "react-router-dom";
-
 
 function SignModal({ show, handleClose, type, handleShow, handleType }) {
+
+    const submitHandler = async (e) => {
+        e.preventDefault()
+
+        const formData = new FormData(e.target)
+        const formDataObj = Object.fromEntries(formData)
+
+        console.log(formDataObj);
+    }
 
 
     if (type === 'login') {
@@ -26,7 +34,6 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
                             <img src={loginImg} alt='signinimg' />
                             <p>Don't have an account? <Link onClick={() => {
                                 handleClose();
-
                                 setTimeout(() => {
                                     handleType('register')
                                     handleShow()
@@ -34,10 +41,10 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
                             }} to=''>Sign up here</Link></p>
                         </div>
                         <div className={style.body}>
-                            <Form>
+                            <form method='post' onSubmit={submitHandler}>
                                 <Form.Group className="mb-3">
                                     <Form.Label>Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" />
+                                    <Form.Control name='email' type="email" placeholder="Enter email" />
                                     <Form.Text className="text-muted">
                                         We'll never share your email with anyone else.
                                     </Form.Text>
@@ -45,13 +52,13 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
 
                                 <Form.Group className="mb-3">
                                     <Form.Label>Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Password" />
+                                    <Form.Control name='password' type="password" placeholder="Password" />
                                 </Form.Group>
 
                                 <Button variant="primary" type="submit" className='mt-3 w-100 pt-2 pb-2'>
                                     Sign in
                                 </Button>
-                            </Form>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -79,30 +86,30 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
                             }} to=''>Sign in here</Link></p>
                         </div>
                         <div className={style.body}>
-                            <Form>
+                            <Form method='post' onSubmit={submitHandler} >
                                 <Form.Group className="mb-3" >
                                     <Form.Label>Full name</Form.Label>
-                                    <Form.Control placeholder="Enter full name" />
+                                    <Form.Control name='name' placeholder="Enter full name" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" >
                                     <Form.Label>Phone</Form.Label>
-                                    <Form.Control placeholder="Enter phone number" />
+                                    <Form.Control name='number' placeholder="Enter phone number" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" >
                                     <Form.Label>Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" />
+                                    <Form.Control name='email' type="email" placeholder="Enter email" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3">
                                     <Form.Label>Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Password" />
+                                    <Form.Control name='password' type="password" placeholder="Password" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3">
                                     <Form.Label>Confirm Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Confirm Password" />
+                                    <Form.Control name='repass' type="password" placeholder="Confirm Password" />
                                 </Form.Group>
 
                                 <Button variant="primary" type="submit" className='mt-3 w-100 pt-2 pb-2'>
@@ -117,9 +124,6 @@ function SignModal({ show, handleClose, type, handleShow, handleType }) {
             </Modal >
         )
     }
-
-
-
 }
 
 export default SignModal

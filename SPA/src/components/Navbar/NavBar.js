@@ -11,24 +11,14 @@ import { Link } from 'react-router-dom'
 import { Fragment, useState } from 'react'
 
 import style from './NavBar.module.css'
-import SignModal from '../SIgnModal/SignModal'
 
 
-const NavBar = () => {
-    const [type, setType] = useState('')
-
-    const handleType = (type) => setType(type);
+const NavBar = ({ handleType, handleShow }) => {
 
     const [expanded, setExpanded] = useState(false)
 
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
     return (
         <Fragment>
-            <SignModal show={show} handleClose={handleClose} handleShow={handleShow} handleType={handleType} type={type} />
             <Navbar expanded={expanded} variant='dark' expand='lg' className={` mb-5 ${style.navbar}`} >
                 <Container >
                     <Link to='/'>
@@ -79,7 +69,6 @@ const NavBar = () => {
                     <Link className={`d-none d-lg-block order-lg-4 ${style.sell}`} as={Link} to='/add-listing'>
                         + Sell car
                     </Link>
-
 
                     {/* Navbar nav */}
                     <Navbar.Collapse id='user-navbar-nav' className={`order-lg-2 mx-5 ${style.nav}`}>
