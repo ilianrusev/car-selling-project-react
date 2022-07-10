@@ -11,7 +11,6 @@ import { Col } from 'react-bootstrap';
 const MyCarousel = () => {
     return (
         <Col className='pb-5 px-0 d-flex justify-content-center'>
-
             <Carousel
                 additionalTransfrom={0}
                 arrows
@@ -68,9 +67,7 @@ const MyCarousel = () => {
             >
                 {DummyImages}
             </Carousel>
-
-
-        </Col>
+        </Col >
     )
 }
 

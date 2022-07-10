@@ -1,4 +1,3 @@
-import merc from '../../assets/images/merc.jpg'
 
 const DUMMY_IMAGES = [
     <img key='3123hfgh1' src='https://cdn2.focus.bg/mobile/photosmob/841/1/big/11632242113012841_3t.jpg' alt='car' />
