@@ -17,18 +17,19 @@ import { Row } from "react-bootstrap"
 const BodyCategoriesSection = () => {
     return (
         <section className={style['body-type']}>
-            <Row className='mb-5'>
-                <div className='text-white font-weight-bold h2 '>Popular car body types</div>
+            <Row className='mb-4'>
+                <h2 className='text-white font-weight-bold'>Popular car body types</h2>
             </Row>
-
-            <SingleBodyCategory type='Sedan' src={sedan} />
-            <SingleBodyCategory type='SUV' src={suv} />
-            <SingleBodyCategory type='Wagon' src={wagon} />
-            <SingleBodyCategory type='Coupe' src={coupe} />
-            <SingleBodyCategory type='Pickup' src={pickup} />
-            <SingleBodyCategory type='Hatchback' src={hatchback} />
-            <SingleBodyCategory type='Convertible' src={convertible} />
-            <SingleBodyCategory type='Van' src={van} />
+            <Row className='justify-content-center'>
+                <SingleBodyCategory type='Sedan' src={sedan} />
+                <SingleBodyCategory type='SUV' src={suv} />
+                <SingleBodyCategory type='Wagon' src={wagon} />
+                <SingleBodyCategory type='Coupe' src={coupe} />
+                <SingleBodyCategory type='Pickup' src={pickup} />
+                <SingleBodyCategory type='Hatchback' src={hatchback} />
+                <SingleBodyCategory type='Convertible' src={convertible} />
+                <SingleBodyCategory type='Van' src={van} />
+            </Row>
 
         </section>
     )
