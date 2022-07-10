@@ -8,7 +8,7 @@ import mylogo from '../../assets/images/mylogo.png'
 
 import { Link } from 'react-router-dom'
 
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 
 import style from './NavBar.module.css'
 import SignModal from '../SIgnModal/SignModal'
@@ -27,19 +27,19 @@ const NavBar = () => {
     const handleShow = () => setShow(true);
 
     return (
-        <>
+        <Fragment>
             <SignModal show={show} handleClose={handleClose} handleShow={handleShow} handleType={handleType} type={type} />
             <Navbar expanded={expanded} variant='dark' expand='lg' className={` mb-5 ${style.navbar}`} >
-                <Container>
-                    <Link to='/' >
+                <Container >
+                    <Link to='/'>
                         <Navbar.Brand className='me-2 me-xl-4 m-0'>
-                            <img src={mylogo} width={90} height={80} alt='car-logo' />
+                            <img src={mylogo} className={style.logo} alt='car-logo' />
                         </Navbar.Brand>
                     </Link>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls='user-navbar-nav' className='ms-auto ' />
 
                     {/* User account dropdown */}
-                    <Dropdown className='order-lg-3 ms-2 '>
+                    <Dropdown className='order-lg-5 ms-2'>
                         <Dropdown.Toggle as={Nav.Link} className='dropdown-toggle-flush py-1 px-0'>
                             <img src={userLogo} width={55} height={55} className='rounded-circle' alt='User' />
                         </Dropdown.Toggle>
@@ -76,9 +76,14 @@ const NavBar = () => {
                         </Dropdown.Menu>
                     </Dropdown>
 
+                    <Link className={`d-none d-lg-block order-lg-4 ${style.sell}`} as={Link} to='/add-listing'>
+                        + Sell car
+                    </Link>
+
+
                     {/* Navbar nav */}
                     <Navbar.Collapse id='user-navbar-nav' className={`order-lg-2 mx-5 ${style.nav}`}>
-                        <Nav className='align-items-center '>
+                        <Nav className='align-items-center'>
                             <Nav.Item className=''>
                                 <Nav.Link onClick={() => setExpanded(false)} as={Link} to='/' >Home</Nav.Link>
                             </Nav.Item>
@@ -92,18 +97,23 @@ const NavBar = () => {
                                 <Nav.Link onClick={() => setExpanded(false)} as={Link} to='/about' >About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link className='sm-h5' onClick={() => {
+                                <Nav.Link onClick={() => {
                                     handleType('login')
                                     setExpanded(false);
                                     handleShow()
                                 }}>Sign in</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link className={`d-lg-none ${style.sell}`} onClick={() => setExpanded(false)} as={Link} to='/add-listing'>
+                                    + Sell car
+                                </Nav.Link>
                             </Nav.Item>
 
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </>
+        </Fragment>
     )
 }
 

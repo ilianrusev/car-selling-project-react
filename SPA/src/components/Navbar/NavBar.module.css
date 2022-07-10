@@ -11,6 +11,10 @@
     left: -190px;
 }
 
+.nav {
+    align-self: center;
+}
+
 .nav a {
     font-size: 20px;
 }
@@ -28,4 +32,42 @@
 .menu a:hover {
     background-color: transparent;
     color: white;
+}
+
+.logo {
+    width: 90px;
+    height: 80px;
+}
+
+.sell {
+    background-color: #fd5631;
+    padding: 5px 12px !important;
+    border: none;
+    border-radius: 5px;
+    color: white !important;
+    font-weight: bold;
+    margin-right: 20px
+}
+
+.sell:hover {
+    background-color: #dc3545;
+    text-decoration: none;
+    transform: scale(1.2);
+    box-shadow: 0px 5px 10px 0px #fd5631;
+}
+
+@media screen and (max-width:991px) {
+    .sell {
+        margin: 0;
+    }
+
+    .sell:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
 }
