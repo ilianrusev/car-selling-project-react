@@ -58,7 +58,7 @@
 
 @media screen and (max-width:991px) {
     .sell {
-        margin: 0;
+        margin: 10px 0;
     }
 
     .sell:hover {
